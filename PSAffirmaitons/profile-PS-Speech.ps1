@@ -32,7 +32,7 @@ Function Convert-TextToSpeech {
     } # End End.
 }
 
-$uri = "https://raw.githubusercontent.com/signalwarrant/Powershell/master/PSAffirmaitons/affirmations.json" 
+$uri = "https://raw.githubusercontent.com/cyberautomate/PubPowerShell/main/PSAffirmaitons/affirmations.json" 
 
 # Testing Affirmations
 $restContent = Invoke-RestMethod -Uri $uri 
