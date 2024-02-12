@@ -1,39 +1,33 @@
 <#
     .SYNOPSIS
-        Returns information about a single or multiple products
+        Returns information about a single or multiple categories
 
     .DESCRIPTION
         This generic description is more than 40 characters long I think.
 
-    .PARAMETER ID
-        Id of the specific product
-
-    .PARAMETER All
-        Get a list of all products available.
+    .PARAMETER Id
+        Id of the specific category
 
     .EXAMPLE
-        Get-Product
+        Get-Category
 
     .NOTES
 #>
-function Get-Product {
+function Get-NewProduct {
     param (
         [Parameter()]
-        [string]$id,
-
-        [Parameter()]
-        [switch]$all
+        [string]$id
     )
     $key = Get-Secret -Name PrintfulAPI -Vault Hall -AsPlainText
 
-    if ($all) {
-        $uri = "https://api.printful.com/products/"
+    if ($id) {
+        $uri = "https://api.printful.com/v2/catalog-products"
         try {
             $header = [Ordered] @{
                 Authorization = "Bearer " + $key
             }
             $response = Invoke-RestMethod -Uri $uri -Headers $header -Method Get -ErrorAction Stop
-            $result = $response.result
+            $result = $response.result.category
         }
         catch {
             Write-Error $_
@@ -41,13 +35,13 @@ function Get-Product {
         return $result
     }
     else {
-        $uri = "https://api.printful.com/products/$id"
+        $uri = "https://api.printful.com/categories/"
         try {
             $header = [Ordered] @{
                 Authorization = "Bearer " + $key
             }
             $response = Invoke-RestMethod -Uri $uri -Headers $header -Method Get -ErrorAction Stop
-            $result = $response.result
+            $result = $response.result.categories
         }
         catch {
             Write-Error $_
