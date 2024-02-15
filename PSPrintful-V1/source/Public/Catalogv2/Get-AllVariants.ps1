@@ -1,32 +1,35 @@
 <#
     .SYNOPSIS
-        Returns information about a specific variant of a product
+        Returns information about all variants of a product
 
     .DESCRIPTION
         This generic description is more than 40 characters long I think.
 
-    .PARAMETER variantId
-        Id of the specific Variant
+    .PARAMETER ID
+        Id of the specific product
+
+    .PARAMETER All
+        Get a list of all products available.
 
     .EXAMPLE
-        Get-Variant
+        Get-AllVariants -id 1
 
     .NOTES
 #>
-function Get-Variant {
+function Get-AllVariants {
     param (
-        [Parameter(Mandatory=$true)]
-        [string]$variantId
+        [Parameter(Mandatory = $true, ValueFromPipeline = $true)]
+        [string]$id
     )
-    $uri = "https://api.printful.com/products/variant/$variantId"
     $key = Get-Secret -Name PrintfulAPI -Vault Hall -AsPlainText
 
+    $uri = "https://api.printful.com/products/$id"
     try {
         $header = [Ordered] @{
             Authorization = "Bearer " + $key
         }
         $response = Invoke-RestMethod -Uri $uri -Headers $header -Method Get -ErrorAction Stop
-        $result = $response.result
+        $result = $response.result.variants
     }
     catch {
         Write-Error $_

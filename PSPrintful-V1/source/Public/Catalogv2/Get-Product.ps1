@@ -21,7 +21,7 @@ function Get-Product {
         [Parameter()]
         [string]$id
     )
-    $key = Get-Secret -Name PrintfulAPI -Vault Hall -AsPlainText
+    $key = Get-Secret -Name Printful -Vault Key -AsPlainText
 
     if ($id) {
         $uri = "https://api.printful.com/products/$id"
@@ -30,7 +30,7 @@ function Get-Product {
                 Authorization = "Bearer " + $key
             }
             $response = Invoke-RestMethod -Uri $uri -Headers $header -Method Get -ErrorAction Stop
-            $result = $response.result.product
+            $result = $response.result.variants
         }
         catch {
             Write-Error $_
