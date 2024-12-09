@@ -1,0 +1,14 @@
+<Configuration>
+    <VGpu>Disable</VGpu>
+    <Networking>Enable</Networking>
+    <MappedFolders>
+       <MappedFolder>
+       <HostFolder>C:\Sandbox</HostFolder>
+    <SandboxFolder>C:\Sandbox</SandboxFolder>
+    <ReadOnly>false</ReadOnly>
+  </MappedFolder>
+</MappedFolders>
+<LogonCommand>
+    <Command>powershell -executionpolicy unrestricted -command "start powershell { -noexit -file C:\Sandbox\installApps.ps1}"</Command>
+</LogonCommand>
+</Configuration>
