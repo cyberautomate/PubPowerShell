@@ -1,5 +1,5 @@
 # How to use the PowerShell Requires Statement
-- 🎯 Exporting Module Help: Learn how to export PowerShell module help files into a single text document for easier review and coding alongside.<br/>
+- 🎯 Exporting Module Help: Learn how to export PowerShell module help files into a single text document for easier review and coding alongside.
 - 📋 Skeleton Function Creation: A step-by-step process to create a PowerShell function starting with a try-catch block and hardcoded parameters.
 - 🔄 Getting Commands from a Module: Retrieve all commands from a specified module like BitLocker for further processing.
 - 📂 Saving Help to Text Files: A demonstration of exporting help data into text files in a specified directory.
