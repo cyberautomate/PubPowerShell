@@ -1,14 +1,14 @@
-# PowerShell Splatting How-To: I should use it more and so should you!
-- 📋 Simplified Code Formatting: Introduces PowerShell splatting for organizing command parameters vertically for readability.
+# Format and Combine Merch by Amazon Sales reports (CSV files) in seconds with PowerShell
+- 📂 CSV Manipulation with PowerShell: Demonstrates combining and formatting sales reports from Merch by Amazon using PowerShell.
 
-- 🔧 Avoiding Backticks: Highlights issues with backticks for line continuation and promotes splatting as a better alternative.
+- 🔧 Cleaning Data: Removes unwanted rows and columns to focus on relevant sales data.
 
-- ⚙️ Practical Example: Demonstrates creating Active Directory users with splatting, emphasizing its benefits for managing multiple parameters.
+- 📜 Automation Function: Shows the creation of a Format-MergeReports function for merging multiple CSV files.
 
-- 💡 Key Recommendation: Advocates using splatting for commands with three or more parameters for cleaner and maintainable scripts.
+- 📊 Exporting Results: Outputs cleaned and combined data into a single, usable CSV file for further analysis in tools like Power BI or SQL databases.
 
 ### YouTube Video ###
-https://youtu.be/qOU6UHOY0SE
+https://youtu.be/obaynnl-bUw
 
 ### My Socials ###
 BlueSky - https://bsky.app/profile/cyberautomate.bsky.social<br/>
