@@ -1,5 +1,5 @@
 # Changelog
-12/30/2024: Added the logic to process 1 or many modules
+12/30/2024:
   - Added the logic to process 1 or many modules
   - Added help content for the function
 
