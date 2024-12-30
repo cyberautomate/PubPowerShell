@@ -1,3 +1,8 @@
+# Changelog
+12/30/2024: Added the logic to process 1 or many modules
+  - Added the logic to process 1 or many modules
+  - Added help content for the function
+
 # How to use the PowerShell Requires Statement
 - 🎯 Exporting Module Help: Learn how to export PowerShell module help files into a single text document for easier review and coding alongside.
 - 📋 Skeleton Function Creation: A step-by-step process to create a PowerShell function starting with a try-catch block and hardcoded parameters.
