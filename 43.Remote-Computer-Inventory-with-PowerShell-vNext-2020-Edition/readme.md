@@ -1,16 +1,16 @@
-# How to use Chocolatey to Install Software remotely on multiple computers.
-- 📦 Introduction to Chocolatey: A package manager for Windows to automate software installation.
+# Remote Computer Inventory with PowerShell vNext, 2020 Edition
+- 🖥️ Enhanced Remote Inventory Script: Updated from an older WMI-based script, this version uses faster SIM cmdlets for remote computer inventory tasks.
 
-- 💻 Use Case for Labs: Demonstrates using Chocolatey to streamline lab setups by automating software installation.
+- 📋 Script Overview and Flexibility: Demonstrates creating, modifying, and running the inventory script for Windows machines, with customization for required data points.
 
-- 🛠️ Basic Commands: Covers listing installed packages and initiating installations across multiple machines.
+- 🔄 Handling Offline Machines: Includes logic to skip unreachable machines and log results for available ones.
 
-- 📋 Custom Scripts for Automation: Highlights creating PowerShell scripts to install Chocolatey, check prerequisites, and deploy packages remotely.
+- 📊 CSV and Output Formatting: Covers generating inventory reports in ordered columns, simplifying sorting and analysis.
 
-- 🌐 Internet Dependency: Points out that the free version of Chocolatey relies on endpoints having internet access.
+- 🔧 Scalability Options: Explains running the script against a domain, organizational units (OUs), or custom machine lists, while warning about performance risks in large environments.
 
 ### YouTube Video ###
-https://youtu.be/6o1hHTJSsZU
+https://youtu.be/3KB0LrzIdnI
 
 ### My Socials ###
 BlueSky - https://bsky.app/profile/cyberautomate.bsky.social<br/>
