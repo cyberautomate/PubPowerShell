@@ -9,7 +9,7 @@
 - 🛠️ Practical Use Case: Provides a quick snapshot of AD environments, ideal for audits or onboarding into new domains.
 
 - 💡 Simplified HTML Output: Leverages basic CSS and object pipelining for readable HTML table formatting.
--
+
 ### YouTube Video ###
 https://youtu.be/m6r9QOC1Nvo
 
