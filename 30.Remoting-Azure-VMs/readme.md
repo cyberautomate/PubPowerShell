@@ -1,4 +1,5 @@
 #  Enable PowerShell Remoting to an Azure Virtual Machine, without Domain Membership
+
 - 🖥️ Remote Connection Setup: Shows enabling PowerShell remoting for non-domain-joined Azure VMs using self-signed certificates.
 
 - 📄 Certificate Configuration: Explains generating and exporting a self-signed certificate from an Azure VM to a local machine for secure authentication.

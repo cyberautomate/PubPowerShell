@@ -1,4 +1,5 @@
 # PowerShell Splatting How-To: I should use it more and so should you!
+
 - 📋 Simplified Code Formatting: Introduces PowerShell splatting for organizing command parameters vertically for readability.
 
 - 🔧 Avoiding Backticks: Highlights issues with backticks for line continuation and promotes splatting as a better alternative.

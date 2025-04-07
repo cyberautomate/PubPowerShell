@@ -1,4 +1,5 @@
-#  PowerShell Hash Tables and Calculated Properties Basics
+# PowerShell Hash Tables and Calculated Properties Basics
+
 - 🗂️ Hash Tables Basics: Explains using hash tables to organize data into key-value pairs for easier management in scripts.
 
 - 📐 Calculated Properties: Demonstrates creating labels and formatting data for human-readable outputs, like converting bytes to gigabytes.

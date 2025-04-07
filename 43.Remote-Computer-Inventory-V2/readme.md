@@ -1,4 +1,5 @@
 # Remote Computer Inventory with PowerShell vNext, 2020 Edition
+
 - 🖥️ Enhanced Remote Inventory Script: Updated from an older WMI-based script, this version uses faster SIM cmdlets for remote computer inventory tasks.
 
 - 📋 Script Overview and Flexibility: Demonstrates creating, modifying, and running the inventory script for Windows machines, with customization for required data points.

@@ -1,4 +1,5 @@
 # How to use the PowerShell Requires Statement
+
 - 📜 Introduction to the Requires Statement: A PowerShell feature to mandate dependencies like specific modules, ensuring a script's compatibility with the target environment.
 - 🛠️ Using the Requires Statement: Demonstrated for scripts needing specific modules like PowerShell secret management, helping avoid hardcoding sensitive credentials.
 - 📋 Best Practices: Keeping Requires statements at the script's top for better organization and using multiple statements for modular dependencies.

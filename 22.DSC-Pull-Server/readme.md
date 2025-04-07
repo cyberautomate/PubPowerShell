@@ -1,4 +1,5 @@
 # PowerShell Desired State Configuration (DSC) How-To for Beginners (Pull Mode)
+
 - 🔧 Setting Up a Pull Server: Guides through installing the DSC pull server feature and configuring IIS for resource hosting.
 
 - 📂 Creating Configurations: Explains creating .mof files and their checksums, detailing how they are placed in the DSC service folder.

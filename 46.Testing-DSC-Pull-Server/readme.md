@@ -1,4 +1,5 @@
 # Testing DSC Pull Server, apply localhost.mof to a client node that disables Windows Firewall
+
 - 🔧 Setup and Verification of DSC Pull Server: Demonstrates setting up a DSC pull server and verifying its functionality with a client node.
 - 📥 Module Installation and Verification: Explains how to download and verify the networking DSC resource module from the PowerShell gallery.
 - 🔍 Identifying the Right Resource: Guides on using PowerShell commands to explore and identify suitable DSC resources for managing Windows Firewall profiles.

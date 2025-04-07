@@ -1,4 +1,5 @@
 # How to Convert TXT Files to PDF in Bulk with PowerShell
+
 - 📄 Export TXT to PDF: The video demonstrates converting text files into PDFs using PowerShell with a Word COM object for enhanced utility like highlighting and annotating.
 
 - 🛠️ Command Functionality: The ConvertTo-PDF function allows specifying source and output folders for processing files seamlessly.

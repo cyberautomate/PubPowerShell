@@ -1,4 +1,5 @@
 # The PowerShell Get-Help cmdlet explained
+
 - 🔍 Updating Help: Demonstrates updating PowerShell help files using Update-Help for the latest documentation.
 
 - 📂 Saving Help Offline: Shows saving help files to a shared drive for environments without direct internet access.

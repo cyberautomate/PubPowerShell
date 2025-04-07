@@ -1,4 +1,5 @@
-#  PowerShell Basics: Sorting and Selecting Objects with Sort-Object and Select-Object
+# PowerShell Basics: Sorting and Selecting Objects with Sort-Object and Select-Object
+
 - 📊 Sorting Objects: Demonstrates sorting PowerShell objects by properties such as CPU usage using Sort-Object in ascending or descending order.
 
 - 🔍 Selecting Properties: Highlights using Select-Object to focus on specific object properties, improving readability and analysis.

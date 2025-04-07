@@ -1,4 +1,5 @@
 # PowerShell Desired State Configuration (DSC) How-To for Beginners (Push Model)
+
 - 🔧 Introduction to DSC: Covers the basics of PowerShell Desired State Configuration, emphasizing its declarative model for managing system states.
 
 - 🚀 Push Model Explained: Details the setup and use of the DSC push model, including creating and deploying .mof files to target nodes.

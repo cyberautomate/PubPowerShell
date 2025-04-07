@@ -1,4 +1,5 @@
 # Remotely retrieve disk size, FreeSpace and % of FreeSpace with PowerShell
+
 - 🛠️ Disk Monitoring Script:
   - Uses PowerShell to retrieve disk details (size, free space, and percentage of free space) from remote systems.
   - Outputs results in multiple formats: HTML, CSV, and grid views for flexibility.

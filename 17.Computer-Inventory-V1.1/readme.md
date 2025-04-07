@@ -1,4 +1,5 @@
 # Remote Computer Inventory using a PowerShell Function
+
 - 🔄 Streamlined Inventory with Functions: Converts a previous inventory script into a reusable PowerShell function for more efficient execution.
 
 - 📋 Key Features:

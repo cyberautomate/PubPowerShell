@@ -1,4 +1,5 @@
 # Remote Computer Inventory with PowerShell
+
 - 📋 Purpose: Demonstrates collecting hardware information from remote computers using a PowerShell script.
 
 - 🔍 Key Features:

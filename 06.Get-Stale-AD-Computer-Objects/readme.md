@@ -1,4 +1,5 @@
-#  Active Directory Maintenance: Finding Stale Computer Objects w/ PowerShell
+# Active Directory Maintenance: Finding Stale Computer Objects w/ PowerShell
+
 - 🔍 Identifying Stale Computers: Uses PowerShell to locate computer objects in Active Directory (AD) that haven’t authenticated within a set number of days.
 
 - ⚙️ Automated Cleanup: The script disables stale accounts, moves them to a "Disabled Computers" OU, and logs details for administrative review.

@@ -1,4 +1,5 @@
-#  Basic and Advanced Filtering of PowerShell Objects using Where-Object
+# Basic and Advanced Filtering of PowerShell Objects using Where-Object
+
 - 🔍 Filtering Basics: Discusses filtering PowerShell objects with the Where-Object cmdlet when native filtering parameters are unavailable.
 
 - ⚙️ Advanced Syntax: Highlights advantages of advanced syntax, such as combining multiple conditions using -and or -or operators.

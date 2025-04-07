@@ -1,4 +1,5 @@
-#  How to view PowerShell Desired State Configuration Manager resource properties
+# How to view PowerShell Desired State Configuration Manager resource properties
+
 - 🛠️ Exploring DSC Resources: Explains using Get-DscResource to view available DSC resources and their properties.
 
 - 📋 Practical Example: Demonstrates how to retrieve properties of the xService resource, including mandatory and optional values.

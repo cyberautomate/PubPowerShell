@@ -1,4 +1,5 @@
 # Search a file structure for a particular file type with PowerShell
+
 - 📂 File Management Script: Uses Get-ChildItem to search recursively through directories for specific file types.
 
 - 📊 Data Output: Outputs results (file path, size, creation, and access times) to a CSV file, formatted with size in megabytes.

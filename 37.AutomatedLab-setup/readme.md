@@ -1,4 +1,5 @@
 #  Quickly deploy LAB Virtual Machines with the AutomatedLab PowerShell Framework
+
 - ⚙️ Streamlined VM Deployment: Demonstrates using the AutomatedLab PowerShell module to set up lab environments quickly.
 
 - 📋 Customization and Features: Includes sample scripts for creating domain controllers and servers with Active Directory and differencing disks for efficient storage.

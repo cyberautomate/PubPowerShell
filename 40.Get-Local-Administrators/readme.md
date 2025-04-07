@@ -1,4 +1,5 @@
 #  How to get the local Administrators of one or many computers remotely with PowerShell.
+
 - 🖥️ Retrieving Local Administrators Remotely: Demonstrates a PowerShell script to fetch the list of local administrators from one or multiple machines.
 
 - ⚙️ Function Overview: Introduces Get-LocalAdmins, a custom function that pings machines, retrieves local admin details using WMI, and formats the output.

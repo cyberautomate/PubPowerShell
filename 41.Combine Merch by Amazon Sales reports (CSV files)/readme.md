@@ -1,4 +1,5 @@
 # Format and Combine Merch by Amazon Sales reports (CSV files) in seconds with PowerShell
+
 - 📂 CSV Manipulation with PowerShell: Demonstrates combining and formatting sales reports from Merch by Amazon using PowerShell.
 
 - 🔧 Cleaning Data: Removes unwanted rows and columns to focus on relevant sales data.

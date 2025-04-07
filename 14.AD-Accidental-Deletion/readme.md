@@ -1,4 +1,5 @@
 # Protect Active Directory Organizational Units from Accidental Deletion with PowerShell
+
 - 🛡️ Protecting Organizational Units (OUs):
   - Uses Get-ADObject to identify OUs not protected from accidental deletion.
   - Demonstrates enabling the protection by setting the ProtectFromAccidentalDeletion property to True.

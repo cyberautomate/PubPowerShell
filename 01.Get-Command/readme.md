@@ -1,4 +1,5 @@
 # The PowerShell Get-Command cmdlet explained
+
 - 🔍 Command Discovery: Explains using Get-Command to find cmdlets, functions, and aliases available in PowerShell.
 
 - 📋 Search Techniques: Demonstrates filtering results by verb, noun, module, and wildcards for precise discovery.

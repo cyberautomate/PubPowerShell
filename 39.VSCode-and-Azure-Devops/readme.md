@@ -1,4 +1,5 @@
 #  Visual Studio Code and Azure DevOps (formerly VisualStudio.com) Integration Step-by-Step
+
 - 🔗 Streamlined Integration: Demonstrates the updated process to synchronize Visual Studio Code with Azure DevOps (formerly VisualStudio.com).
 
 - 📦 Pre-requisites: Requires Visual Studio Code, Git, and Azure DevOps credentials.

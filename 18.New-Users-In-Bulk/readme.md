@@ -1,4 +1,5 @@
 # Create Mail Enabled Users in Bulk with Password verification using PowerShell
+
 - 🔄 Bulk Creation: Demonstrates creating mail-enabled users in bulk by reading user details from a CSV file.
 
 - 🔐 Password Verification: Includes password validation with a PowerShell function to ensure password consistency and strength.

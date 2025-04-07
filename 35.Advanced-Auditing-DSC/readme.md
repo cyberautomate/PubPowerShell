@@ -1,4 +1,5 @@
 #  Advanced Auditing with PowerShell Desired State Configuration Manager (DSC)
+
 - 📜 Setting Up DSC: Explains configuring a pull server with certificates and creating MOF files for client auditing configurations.
 
 - 🔒 Advanced Auditing Policies: Demonstrates defining and deploying audit policies via DSC to servers, including non-domain-joined machines in DMZs.

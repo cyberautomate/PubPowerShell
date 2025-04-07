@@ -1,4 +1,5 @@
 # Remotely Copy & Install Adobe Reader with PowerShell
+
 - 📂 File Transfer: Uses a PowerShell script to copy the Adobe Reader installation package to remote computers via the C$ admin share.
 
 - ⚙️ Silent Installation: Automates installation using command switches for a silent, user-free setup.

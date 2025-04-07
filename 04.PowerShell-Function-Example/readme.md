@@ -1,4 +1,5 @@
 # How to create and use custom PowerShell Functions
+
 - 🔧 Defining a Function: Demonstrates converting a script into a reusable PowerShell function with defined parameters.
 
 - 📋 Usage in Sessions: Explains loading functions temporarily into memory or permanently into profiles for easier reuse.

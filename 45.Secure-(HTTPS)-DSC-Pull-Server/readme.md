@@ -1,4 +1,5 @@
 # Secure (HTTPS) DSC Pull Server with SQL Database using a Group Managed Service Account (gMSA)
+
 - 📋 Prerequisites for Setup: Explains essential components, including Active Directory, certificate services, DNS records, and SQL server configurations.
 
 - 🛠️ Configuring gMSA: Demonstrates creating and managing a Group Managed Service Account (gMSA) for enhanced security.

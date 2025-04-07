@@ -1,4 +1,5 @@
 # Get members of all Active Directory Groups with PowerShell
+
 - 📋 Group Membership Discovery: Explains retrieving members of all Active Directory (AD) groups using PowerShell.
 
 - 🔧 Custom Function: Introduces Get-GroupMember to fetch members of global, domain local, or universal groups.

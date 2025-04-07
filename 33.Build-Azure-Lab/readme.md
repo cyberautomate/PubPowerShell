@@ -1,4 +1,5 @@
 #  Automate Creating Lab Virtual Machines in Azure with PowerShell
+
 - 🛠️ CSV-Based Automation: Demonstrates creating Azure VMs in bulk using a CSV file for input values like VM names, locations, and sizes.
 
 - ⚡ Streamlined Process: Explains a PowerShell function to automate resource creation, including network interfaces and virtual machines.

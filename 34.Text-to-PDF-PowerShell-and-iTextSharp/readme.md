@@ -1,4 +1,5 @@
 #  Convert text files to PDF then merge PDFs in bulk with PowerShell and iTextSharp
+
 - 📜 Export Help to Text Files: Demonstrates using PowerShell to extract help data for modules and save them as individual text files.
 
 - 🖨️ Convert Text to PDF: Utilizes the iTextSharp library to convert text files to PDF format for easier reading and annotation.

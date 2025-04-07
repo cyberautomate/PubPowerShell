@@ -1,4 +1,5 @@
 # Active Directory Maintenance: Finding Stale User Objects w/ PowerShell
+
 - 🔍 Stale User Identification: Uses PowerShell to detect and manage inactive Active Directory (AD) user objects based on their last logon time.
 
 - 🛠️ Automation Options: Demonstrates filtering, disabling, and moving inactive accounts to a dedicated OU for better organization.
