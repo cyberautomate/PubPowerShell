@@ -10,6 +10,8 @@
 
 - 🔐 Network Design: A hub-and-spoke model is implemented with VPN gateway access from local machines—no public IPs are used, maintaining traffic inside Azure.
 
+![Cyber Lab Diagram](Cyber-Lab.png)
+
 ### YouTube Video ###
 https://youtu.be/vKZbetXS1Tw
 
