@@ -1,4 +1,4 @@
-# 51. Building a Hybrid Attack Lab: Red vs Blue Team Setup in Azure + Hyper-V Part 1
+# 51. Azure Cyberlab Part 1 - How to build a Hybrid Cybersecurity Lab with PowerShell.
 
 - 🧪 Lab Introduction & Purpose: The video introduces a hybrid lab setup intended for red team attack simulations to identify gaps in security defenses across a tenant setup.
 

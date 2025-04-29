@@ -1,4 +1,4 @@
-# 52. CyberLab Part 2: Building VPNs, VNETs & Sentinel with PowerShell Magic!
+# 52. Azure Cyberlab Part 2 - Hub virtual network and VPN with PowerShell
 
 - 🔧 Building Hub Infrastructure in Azure
 The video begins with creating the foundational hub resource group using PowerShell. It involves defining IP space, choosing a region, and managing subscriptions.
